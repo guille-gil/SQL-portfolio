@@ -18,10 +18,8 @@ SELECT * FROM
           MONTH(order_date) AS month,
           driver_id,
           AVG(MINUTE(TIMEDIFF(order_time, delivered_time))) AS avg_time
-        FROM
-          orders
-        GROUP BY
-          month, driver_id
+        FROM orders
+        GROUP BY month, driver_id
       ) query1
   ) query2
 WHERE driver_rank BETWEEN 1 AND 5;
