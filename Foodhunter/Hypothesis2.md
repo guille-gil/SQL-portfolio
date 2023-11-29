@@ -16,7 +16,7 @@ GROUP BY month
 ORDER BY month;
 ```
 
-#### Query Explanation:
+Query Explanation:
 
 1. **Selecting Month:** Extracts the month from the order_date column.
 2. **Calculating Total Revenue:** Sums up the final_price to calculate the total revenue for each month.
@@ -53,7 +53,7 @@ SELECT
 FROM orders;
 ```
 
-#### Query Explanation:
+Query Explanation:
 
 1. **Calculating Average Price:** Computes the average final price across all orders.
 2. **Finding Maximum Price:** Identifies the highest final price in the dataset.
