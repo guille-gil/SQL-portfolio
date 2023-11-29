@@ -5,9 +5,7 @@ To investigate the performance of delivery partners and identify any issues affe
 
 ```sql
 -- SQL Query for Delivery Partner Performance Analysis
-SELECT
-  *
-FROM
+SELECT * FROM
   (
     SELECT
       month,
