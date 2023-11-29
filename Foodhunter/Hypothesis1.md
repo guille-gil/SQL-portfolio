@@ -1,5 +1,5 @@
-## Hypothesis 1: Time-based Problems
-### 1: Weekend vs. Weekday Analysis
+### Hypothesis 1: Time-based Problems
+1. **Weekend vs. Weekday Analysis**
 To investigate whether specific times of the day or days of the week correlate with decreased revenue, we'll start by comparing revenue between weekends and weekdays. The following SQL query is designed for this purpose:
 
 ```sql
