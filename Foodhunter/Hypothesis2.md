@@ -1,6 +1,7 @@
 ### Hypothesis 2: Revenue-related Factors
 
 1. **Analyzing the Effect of Discounts**
+
 To investigate the impact of discounts on the final revenue, we'll use the following SQL query:
 
 ```sql
@@ -41,7 +42,8 @@ The consistent discount sales ratio of 0.14 indicates a stable relationship betw
 ---
 
 
-### 2. Analyzing Price Levels
+2. **Analyzing Price Levels**
+
 To assess whether prices are too high, we'll use the following SQL query:
 
 ```sql
