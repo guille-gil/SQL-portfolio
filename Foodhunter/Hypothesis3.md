@@ -1,5 +1,6 @@
 ### Hypothesis 3
 1. **Delivery Partner Problems**
+
 To investigate the performance of delivery partners and identify any issues affecting delivery times or customer satisfaction, we'll use the following SQL query:
 
 ```sql
