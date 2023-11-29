@@ -37,6 +37,7 @@ Suggesting a potential correlation between the day of the week and revenue, emph
 ---
 
 2. **Time of Day Analysis**
+
 To delve into the impact of specific times of the day on revenue, we'll utilize the following SQL query:
 
 ```sql
