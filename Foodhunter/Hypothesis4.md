@@ -75,3 +75,55 @@ For each month, the 'night' time of day consistently ranks as the top revenue co
 ---
 
 
+2. ** Vegetarian VS Non-Vegetarian **
+
+To understand food preferences per customer over the months (veg or non veg), we need to find the number of orders per food type over the months joining different tables. 
+
+```sql
+-- SQL Query for Food Preferences & Quality Analysis (Part 2)
+SELECT
+  fi.food_type_new,
+  SUM(oi.quantity) AS items_quantity
+FROM orders_items oi
+LEFT JOIN
+  (
+    SELECT
+      item_id,
+      CASE
+        WHEN food_type LIKE 'veg%' OR food_type = 'vegetarian' THEN 'veg'
+        ELSE 'non veg'
+      END AS food_type_new
+    FROM food_items
+  ) fi
+ON oi.item_id = fi.item_id
+GROUP BY fi.food_type_new;
+```
+
+Query Explanation:
+
+1. **Joining Tables:** The query performs a left join between the orders_items table (oi) and a subquery (fi) that categorizes food items into 'veg' or 'non veg' based on the food_type column in the food_items table.
+2. **Categorizing Food Types:** The subquery (fi) assigns a new category (food_type_new) to each food item, distinguishing between vegetarian ('veg') and non-vegetarian ('non veg'). To handle variations in input data formats, the LIKE operator is used to match 'veg' and 'vegetarian'.
+3. **Summing Item Quantities:** The main query calculates the total quantity of items for each food type category.
+
+This analysis takes into account different formats of input data ('veg' and 'vegetarian') when categorizing food types, ensuring a comprehensive and accurate representation of customer food preferences. The results are:
+
+| Food Type | Items Quantity |
+|-----------|----------------|
+| veg       | 23,239         |
+| non veg   | 63,077         |
+
+Customers seem to have a substantial preference for non-vegetarian items, as evidenced by the higher quantity in this category compared to vegetarian items.
+
+
+---
+
+
+### Conclusion
+
+In conclusion, the combined findings strongly support the hypothesis that customer preferences play a pivotal role in ordering behavior. Therefore, we **accept hypothesis 4**. The integration of food type preferences and time-of-day patterns offers a holistic view, guiding strategic decisions for menu planning, marketing, and overall business optimization.
+
+Potential corrective actions might include:
+- Given the clear preference for non-vegetarian items, optimizing menu offerings and marketing strategies to align with this preference may enhance customer satisfaction and revenue.
+- Addressing the observed decline in evening revenue through targeted promotions or menu adjustments could further contribute to business success.
+
+
