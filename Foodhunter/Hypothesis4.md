@@ -75,7 +75,7 @@ For each month, the 'night' time of day consistently ranks as the top revenue co
 ---
 
 
-2. ** Vegetarian VS Non-Vegetarian **
+2. **Vegetarian VS Non-Vegetarian**
 
 To understand food preferences per customer over the months (veg or non veg), we need to find the number of orders per food type over the months joining different tables. 
 
