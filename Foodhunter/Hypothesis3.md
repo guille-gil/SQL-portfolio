@@ -24,8 +24,7 @@ SELECT * FROM
           month, driver_id
       ) query1
   ) query2
-WHERE
-  driver_rank BETWEEN 1 AND 5;
+WHERE driver_rank BETWEEN 1 AND 5;
 ```
 
 Query Explanation:
