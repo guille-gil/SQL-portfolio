@@ -28,6 +28,6 @@ These hypotheses serve as the starting point for our exploration within the data
 
 Below is an illustration of the relational database schema for FoodHunter's dataset:
 
-
+![Database Schema](https://github.com/guille-gil/SQL-portfolio/raw/main/Foodhunter/schema.png)
 
 By delving into these hypotheses and thoroughly analyzing the data, we aim to provide actionable insights and recommendations for FoodHunter to reverse the downward revenue trend and enhance overall business performance. Stay tuned for updates as we progress through the various stages of this SQL project!
