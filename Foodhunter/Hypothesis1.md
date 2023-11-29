@@ -16,7 +16,7 @@ FROM orders
 GROUP BY WDay;
 ```
 
-#### Query Explanation:
+Query Explanation:
 1. **Calculating Total Revenue:** Sums up the final_price to calculate the total revenue for weekends and weekdays.
 2. **Counting Orders:** Counts the number of orders for each category (Weekend or Weekday).
 3. **Categorizing Days:** Utilizes the CASE statement to categorize days into 'Weekend' or 'Weekday' based on the day of the week.
