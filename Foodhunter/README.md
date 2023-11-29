@@ -12,7 +12,7 @@ To guide our investigation, we have formulated six initial hypotheses or potenti
 
 1. **Time-based Problems:** Explore whether specific times of the day or days of the week (weekday vs weekend) correlate with decreased revenue. For example, families may tend to eat together during weekends. 
 
-2. **Revenue-related Factors:** Investigate any the effect of any discounts over the final revenue, i.e., whether they have reduced, increased or they had no effect over the total orders. Investigate if prices are too high.
+2. **Revenue-related Factors:** Investigate any the effect of any discounts over the final revenue, i.e., whether they have reduced, increased or they had no effect over the total orders. 
 
 3. **Delivery Partner Problems:** Examine the performance of delivery partners to identify any issues affecting delivery times or customer satisfaction. Delivery duration will be key here.
 
