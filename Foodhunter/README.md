@@ -33,6 +33,8 @@ Below is an illustration of the relational database schema for FoodHunter's data
 By delving into these hypotheses and thoroughly analyzing the data, we aim to provide actionable insights and recommendations for FoodHunter to reverse the downward revenue trend and enhance overall business performance. Stay tuned for updates as we progress through the various stages of this SQL project!
 
 
+---
+
 
 ## Hypothesis 1: Time-based Problems
 To explore if specific times of the day or days of the week correlate with decreased revenue, we'll analyze the **orders table**, focusing on the *order_id*, *order_time*, and *delivered_time* columns.
@@ -55,3 +57,7 @@ ORDER BY day_of_week;
 4. **Grouping and Ordering:** Groups results by the day of the week to identify trends. Orders results for better analysis.
 
 This query helps determine if certain days of the week exhibit longer delivery times or lower order counts, potentially contributing to decreased revenue. Adjust the time units or conditions based on your dataset's specifics.
+
+---
+
+
