@@ -1,4 +1,5 @@
 ### Hypothesis 2: Revenue-related Factors
+
 1. **Analyzing the Effect of Discounts**
 To investigate the impact of discounts on the final revenue, we'll use the following SQL query:
 
@@ -36,9 +37,11 @@ The results from this query reveal stable trends in the relationship between dis
 
 The consistent discount sales ratio of 0.14 indicates a stable relationship between discounts and total revenue. Despite fluctuations in total revenue, the proportion of revenue influenced by discounts remains relatively constant.
 
+
 ---
 
-###2. Analyzing Price Levels
+
+### 2. Analyzing Price Levels
 To assess whether prices are too high, we'll use the following SQL query:
 
 ```sql
@@ -66,7 +69,9 @@ The results for this query are:
 
 The average price of $27.78, along with the observed maximum and minimum prices, suggests a reasonable pricing structure that aligns with market competitiveness.
 
+
 ---
+
 
 ## Conclusion
 In light of these findings, we **reject Hypothesis 2**, as there is no substantial evidence to support concerns about the negative impact of discounts on revenue or excessively high prices. The data indicates a balanced approach to discounts and competitive pricing, contributing positively to overall revenue.
