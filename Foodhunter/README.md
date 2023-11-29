@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Welcome to the SQL project centered around FoodHunter, a well-funded food delivery app known for its expansive range of restaurant options featuring diverse cuisines and prompt delivery services. Despite previous success, FoodHunter has observed a consistent decline in monthly revenues over the last quarter. In response to this challenge, the company aims to uncover the various factors contributing to this downturn.
+Welcome to my first SQL project centered around FoodHunter, a well-funded food delivery app known for its expansive range of restaurant options featuring diverse cuisines and prompt delivery services. Despite previous success, FoodHunter has observed a consistent decline in monthly revenues over the last quarter. In response to this challenge, the company aims to uncover the various factors contributing to this downturn.
 
 Our objective is to analyze the available relational database at the order level, including essential details such as cuisines, restaurants, delivery times, ratings, and more. This dataset is structured across six distinct tables within a relational database, offering a comprehensive snapshot of the company's operational landscape.
 
