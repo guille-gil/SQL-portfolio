@@ -39,19 +39,14 @@ To explore if specific times of the day or days of the week correlate with decre
 
 
 ```sql
--- SQL Query Example
+-- SQL Query for Hypothesis 1
 SELECT
-  column1,
-  column2,
-  SUM(column3) AS total_column3
-FROM
-  your_table
-WHERE
-  condition = 'some_value'
-GROUP BY
-  column1, column2
-ORDER BY
-  total_column3 DESC;
+  DAYOFWEEK(order_time) AS day_of_week,
+  COUNT(order_id) AS order_count,
+  AVG(TIMESTAMPDIFF(MINUTE, order_time, delivered_time)) AS avg_delivery_time
+FROM orders
+GROUP BY day_of_week
+ORDER BY day_of_week;
 ```
 
 1. **Selecting Day of Week:** Extracts the day of the week using the DAYOFWEEK function from the order_time column.
