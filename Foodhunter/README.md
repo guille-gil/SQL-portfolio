@@ -8,7 +8,7 @@ Our objective is to analyze the available relational database at the order level
 
 ## Exploration Hypotheses
 
-To guide our investigation, we have formulated six initial hypotheses or potential areas of concern that could be contributing to the observed trends:
+To guide our investigation, we have formulated five initial hypotheses or potential areas of concern that could be contributing to the observed trends:
 
 1. **Time-based Problems:** Explore whether specific times of the day or days of the week (weekday vs weekend) correlate with decreased revenue. For example, families may tend to eat together during weekends. 
 
