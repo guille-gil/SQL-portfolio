@@ -18,9 +18,7 @@ To guide our investigation, we have formulated six initial hypotheses or potenti
 
 4. **Food Preferences & Quality:** Analyze whether customers prefer to order breakfast, lunch or dinner. Analyse vegetarian vs non-vegetarian preferences. Investigate whether food quality has reduced over time resulting in a decreased rating.
 
-5. **Marketing Factors:** Explore whether marketing expense has remained the sense for the different marketing channels. Investigate the effect over the total orders.
-
-6. **Customer Reviews:** Investigate how customer reviews and ratings contribute to the overall revenue trends. Explore how ratings affect at an individual restaurants level.
+5. **Customer Reviews:** Investigate how customer reviews and ratings contribute to the overall revenue trends. Explore how ratings affect at an individual restaurants level.
 
 These hypotheses serve as the starting point for our exploration within the database. We will delve into the data to validate, refine, or discover new insights related to each hypothesis, aiming to provide actionable recommendations for FoodHunter. Stay tuned for updates as we progress through the various stages of this SQL project!
 
