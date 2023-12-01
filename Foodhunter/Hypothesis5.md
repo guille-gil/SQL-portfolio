@@ -50,7 +50,8 @@ The results provide insights into how individual customer reviews and ratings co
 These results are only a sample of the more than 10k+ rows returned. There seems to be a general regression pattern indicating a general descend in revenue as the average rating is lower. 
 
 
-1. **Ratings' Impact on Individual Restaurants**
+2. **Ratings' Impact on Individual Restaurants**
+===
 
 Now we need to examine how ratings affect individual restaurants and their contribution to revenue trends. For that purpose, we will be using the following query:
 
