@@ -1,4 +1,4 @@
-### Hypothesis 4
+### Hypothesis 4: Food Preferences & Quality
 1. **Breakfast vs Lunch vs Dinner**
 
 To investigate the comparison between the different meal times, the following query is utilised. 
